@@ -1,0 +1,667 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.nav-text{
+  color: white;
+  text-decoration: none;
+}
+.nav-text:hover{
+  color: blue;
+}
+.header-child {
+  height: 91px;
+  width: 1440px;
+  position: relative;
+  background-color: #000;
+  display: none;
+  max-width: 100%;
+}
+.about {
+  position: relative;
+  z-index: 1;
+}
+.contact,
+.portfolio,
+.services {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.about-info {
+  margin: 0;
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px 0 0;
+  box-sizing: border-box;
+  gap: 0 45px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20.7px;
+  color: #fff;
+  font-family: "Average Sans";
+}
+.sign-in-button-child {
+  height: 49px;
+  width: 131px;
+  position: relative;
+  border-radius: 25px;
+  background-color: #4ba3f5;
+  display: none;
+}
+.sign-in {
+  margin: 0;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 2;
+}
+.header,
+.header-wrapper,
+.sign-in-button {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.sign-in-button {
+  height: 49px;
+  width: 131px;
+  border-radius: 25px;
+  background-color: #4ba3f5;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 1px 8px 20px 22px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.header,
+.header-wrapper {
+  max-width: 100%;
+}
+.header {
+  flex: 1;
+  background-color: #000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 43px 21px 80px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: "Average Sans";
+}
+.header-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 94px;
+}
+.ellipse-shape-icon {
+  height: 366px;
+  width: 365px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.about-me1 {
+  margin: 0;
+  width: 193px;
+  height: 58px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.blank-line,
+.it-is-harsh,
+.with-that-said {
+  margin: 0;
+}
+.it-is-harsh-container {
+  width: 711px;
+  height: 340px;
+  position: relative;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  line-height: 170.9%;
+  font-weight: 600;
+  font-family: "Public Sans";
+  color: #313131;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.about-me-text,
+.ellipse-shape-parent,
+.testimonials-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.about-me-text {
+  flex-direction: column;
+  gap: 11px 0;
+  min-width: 711px;
+}
+.ellipse-shape-parent,
+.testimonials-section {
+  flex-direction: row;
+}
+.ellipse-shape-parent {
+  gap: 0 139px;
+}
+.testimonials-section {
+  padding: 0 39px 0 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.line-separator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+}
+.divider-line {
+  width: 1388px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px 39px;
+  box-sizing: border-box;
+  gap: 18px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 29px;
+  color: #000;
+  font-family: Raleway;
+}
+.courses-at {
+  height: 37px;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.silver-oak-university-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px;
+}
+.silver-oak-university {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+.silver-oak-university-wrapper {
+  width: 428px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.figma-basics,
+.introduction-to-information,
+.programming-fundamentals,
+.visionary-leader-and {
+  margin-bottom: 0;
+}
+.introduction-to-information-an {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 28px;
+}
+.introduction-to-information-container {
+  width: 482.7px;
+  height: 268px;
+  position: relative;
+  font-size: 21px;
+  letter-spacing: 0.04em;
+  line-height: 225.9%;
+  font-weight: 300;
+  font-family: "Public Sans";
+  display: inline-block;
+  flex-shrink: 0;
+}
+.footer-social-links,
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.intro-text {
+  align-self: stretch;
+  gap: 90px 0;
+}
+.footer-social-links {
+  width: 483px;
+  padding: 0 0 4px;
+  box-sizing: border-box;
+  min-width: 483px;
+}
+.rectangle-shape-child {
+  border: 0;
+  background-color: #c4c4c4;
+  height: 394px;
+  width: 432px;
+  outline: 0;
+  position: relative;
+  min-width: 432px;
+  max-width: 100%;
+}
+.rectangle-shape {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 41.8px;
+  color: #000;
+}
+.courses-frame,
+.testimonials-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.courses-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 14px 0;
+}
+.testimonials-text {
+  width: 1188px;
+  flex-direction: row;
+  padding: 0 6px 0 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 32.9px;
+  color: #251272;
+  font-family: "Average Sans";
+}
+.testimonials-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+}
+.testimonials1 {
+  position: relative;
+}
+.testimonials {
+  width: 1388px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px 42px;
+  box-sizing: border-box;
+  gap: 32px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 56.2px;
+  color: #000;
+  font-family: "Average Sans";
+}
+.test-1-child {
+  width: 601px;
+  height: 325px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.quote-1-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: 30px;
+  left: 58px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.i-dont-have {
+  width: 485.2px;
+  height: 156px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mohit-kumar,
+.web-developer {
+  margin: 0;
+}
+.mohit-kumar-web-container1 {
+  width: 100%;
+}
+.mohit-kumar-web-container {
+  width: 152px;
+  height: 26px;
+  position: relative;
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.i-dont-have-words-to-thank-th-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px;
+  gap: 15px 0;
+}
+.test-1,
+.test-2-child {
+  position: relative;
+  background-color: rgba(55, 65, 81, 0.6);
+  max-width: 100%;
+}
+.test-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 51px;
+  box-sizing: border-box;
+  min-height: 325px;
+}
+.test-2-child {
+  width: 601px;
+  height: 325px;
+  display: none;
+}
+.for-everyone-who,
+.quote-2-icon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.quote-2-icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.for-everyone-who {
+  width: 497px;
+  height: 157px;
+  display: flex;
+  align-items: center;
+}
+.quote-2-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px 0;
+}
+.rakesh-shetty,
+.web-developer1 {
+  margin: 0;
+}
+.rakesh-shetty-web-container {
+  height: 43px;
+  position: relative;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.test-1-parent,
+.test-2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.test-2 {
+  background-color: rgba(55, 65, 81, 0.6);
+  flex-direction: column;
+  padding: 30px 56px 34px 48px;
+  gap: 22px;
+  font-size: 22px;
+}
+.test-1-parent {
+  flex-direction: row;
+  padding: 0 20px 13px;
+  gap: 0 51px;
+  text-align: left;
+  font-size: 21.5px;
+  color: #fff;
+  font-family: "Average Sans";
+}
+.social-icon {
+  height: 39.4px;
+  width: 23px;
+  position: relative;
+}
+.social-icon1,
+.social-icon2 {
+  height: 46px;
+  width: 46px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 46px;
+}
+.social-icon2 {
+  width: 55.9px;
+}
+.social-icon3,
+.social-icon4 {
+  height: 39.4px;
+  width: 42.7px;
+  position: relative;
+  object-fit: cover;
+}
+
+.social-parent {
+  width: 398px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.all-rights-reserved {
+  margin-top: -5px;
+  margin-bottom: -5px;
+  position: relative;
+}
+.copyright {
+  height: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+  box-sizing: border-box;
+}
+.about-me,
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: rgba(255, 255, 255, 0.26);
+  padding: 34px 34px 37px;
+  box-sizing: border-box;
+  gap: 40px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: "Average Sans";
+}
+.about-me {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #60eecc, #2c5f8f);
+  overflow: hidden;
+  gap: 107px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1225px) {
+  .about-me-text,
+  .ellipse-shape-icon {
+    flex: 1;
+  }
+  .ellipse-shape-parent {
+    flex-wrap: wrap;
+    gap: 0 69px;
+  }
+  .test-1-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .about-me-text {
+    min-width: 100%;
+  }
+  .footer-social-links,
+  .rectangle-shape-child {
+    flex: 1;
+  }
+  .rectangle-shape {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-info {
+    display: none;
+  }
+  .header {
+    padding-left: 40px;
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+  .ellipse-shape-parent {
+    gap: 0 35px;
+  }
+  .courses-at {
+    font-size: 26px;
+  }
+  .silver-oak-university {
+    font-size: 33px;
+  }
+  .intro-text {
+    gap: 45px 0;
+  }
+  .footer-social-links,
+  .rectangle-shape-child {
+    min-width: 100%;
+  }
+  .testimonials1 {
+    font-size: 45px;
+  }
+  .testimonials {
+    gap: 16px 0;
+  }
+  .test-1,
+  .test-2 {
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+  .test-2 {
+    padding-left: 24px;
+    padding-right: 28px;
+  }
+  .test-1-parent {
+    gap: 0 25px;
+  }
+  .footer {
+    gap: 20px 0;
+  }
+  .about-me {
+    gap: 53px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-info {
+    gap: 0 22px;
+  }
+  .about-me1 {
+    font-size: 23px;
+  }
+  .it-is-harsh-container {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .ellipse-shape-parent {
+    gap: 0 17px;
+  }
+  .courses-at {
+    font-size: 20px;
+  }
+  .silver-oak-university {
+    font-size: 25px;
+  }
+  .introduction-to-information-container {
+    font-size: 17px;
+    line-height: 38px;
+  }
+  .testimonials1 {
+    font-size: 34px;
+  }
+  .i-dont-have {
+    font-size: 17px;
+  }
+  .mohit-kumar-web-container {
+    font-size: 16px;
+  }
+  .for-everyone-who,
+  .rakesh-shetty-web-container {
+    font-size: 18px;
+  }
+  .social-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .all-rights-reserved {
+    font-size: 16px;
+  }
+  .about-me {
+    gap: 27px 0;
+  }
+}
